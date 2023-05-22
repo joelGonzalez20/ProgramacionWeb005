@@ -1,0 +1,21 @@
+
+{% extends 'core/index.html' %}
+{% block content %}
+<div class="container-carrito">
+    <h2 class="titulo-carrito">Carrito de Compras</h2>
+        <!-- <div class="alert alert-success alert-dismissible" role="alert">
+            <div class="mensaje-success">Mensaje</div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div> -->
+    <div class="div-tabla-carrito">
+        {% include 'core/widget.html' %}
+    </div>
+    <div class="div-limpiar-carrito">
+        <div class="div-btn-comprar">
+            <a href="">
+                <button class="btn-comprar">Comprar</button>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
